@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="SAS API Automation">  
+<listeners>
+    <listener class-name="com.testng.reporting.Report" />
+  </listeners>
+<test name="SAS API Automation">  
+
+	
+  <packages>  
+    <package name="com.testng.reporting"/>      
+  </packages>   	
+</test>			
+</suite>

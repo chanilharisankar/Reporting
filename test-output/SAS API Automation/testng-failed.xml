@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SAS API Automation]">
+  <listeners>
+    <listener class-name="com.testng.reporting.Report"/>
+  </listeners>
+  <test name="SAS API Automation(failed)">
+    <classes>
+      <class name="com.testng.reporting.Report">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- com.testng.reporting.Report -->
+    </classes>
+  </test> <!-- SAS API Automation(failed) -->
+</suite> <!-- Failed suite [SAS API Automation] -->
